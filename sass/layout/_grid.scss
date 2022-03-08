@@ -1,0 +1,47 @@
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 9.6rem;
+}
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 6rem;
+}
+
+.tours {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 6.4rem;
+}
+
+.story {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 10rem;
+}
+
+.popup__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3.2rem;
+}
+
+.popup__paragraph {
+  display: flex;
+}
+
+.grid--span-2 {
+  grid-column: 2/-1;
+}
